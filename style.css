@@ -1,0 +1,74 @@
+.invisibleP{
+    display:none;
+} 
+
+.formbar{
+    position:relative;
+    left:10%;
+}
+
+.fishArea{
+    height:30%;
+    width:80%;
+    border-radius:20px;
+    border: 3px solid lightskyblue;
+    margin:auto;
+    
+}
+.water{
+    position:relative;
+    height:10%;
+    width:100%;
+    overflow: hidden;
+
+}
+.water1{
+    width:100%;
+    height:100%;
+    animation: water1 5.5s infinite linear;
+    position:absolute;
+
+}
+.water2 {
+
+    position:absolute;
+    width:100%;
+    height:100%;
+    animation: water2 5s infinite linear
+}
+.water3 {
+    /* position:absolute; */
+    position:absolute;
+
+    width:100%;
+    height:100%;
+    animation: water2 4s infinite linear
+}
+.water4 {
+    /* position:absolute; */
+    position:absolute;
+
+    width:100%;
+    height:100%;
+    animation: water2 5s infinite linear
+}
+
+
+@keyframes water1{
+    0%{left:0}
+    100%{left:100%}
+}
+@keyframes water2{
+    0%{right:0}
+    100%{right:100%}
+}
+.waterArea{
+    height:50%;
+    width:80%;
+    border-radius:20px;
+    border: 3px solid lightskyblue;
+    margin:auto;
+    background-color: rgb(16, 16, 80);
+    overflow: hidden;
+
+}

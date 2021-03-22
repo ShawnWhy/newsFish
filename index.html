@@ -1,0 +1,68 @@
+ 
+<html>
+<head>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+</head>  
+<body>
+    <div class="formbar row">
+        <div class="searcContainer">
+        <form  id="searchForm">
+            <select class=" selectionMethod" name="searchBy">
+                <option value="q" selected>searchBy</option>
+                <option value="q">Topic</option>
+                <option value="sources">Source Name</option>
+                <option value="domains">domain Address</option>
+                <!-- <option value="language">language</option> -->
+              </select>
+          <input id="searchWord" type="text" placeholder="search for">
+          <lable id="dateStartLable">Published from:</lable>
+         <input id="publicationDateSearchStart" type="date">
+         <lable id="dateStartLable">to:</lable>
+         <input id="publicationDateSearchEnd" type="date">
+          <!-- <input id="sourceSearch" placeholder=" source">
+          <input id="domainSearch" type="text" placeholder=" Source Domain"> -->
+          <select class="w3-select sortBySelection" name="sort  by">
+              <option value="popularity" selected>Sort Results By</option>
+              <option value="popularity">popularity</option>
+              <option value="relevancy">relevancy</option>
+              <option value="publishedAt">Date Published</option>
+            </select>
+          
+          <input id="searchSubmit" type="submit"value="search">
+          <!-- <button id="advancedSearch"><p id="advancedP">avdanced search</p></button> -->
+
+      </form>
+    </div>
+</div> 
+      
+<div class="fishArea">
+
+</div>
+<div class="waterArea">
+    <div class="water"></div>
+    <div class="water"></div>
+    <div class="water"></div>
+    <div class="water"></div>
+    <div class="water "></div>
+    <div class="water"></div>
+    <div class="water"></div>
+    <div class="water"></div>
+    <div class="water"></div>
+    <div class="water"></div>
+
+
+</div>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  
+</body>
+
+
+
+</html>
