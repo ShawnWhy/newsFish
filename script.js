@@ -169,7 +169,7 @@ function searchNews(){
 }
 
 function searchNewsInitial(){
-    queryURL = "https://gnews.io/api/v4/top-headlines?&token="+APIKey
+    queryURL = "https://gnews.io/api/v4/top-headlines?lang=en&token="+APIKey
   
 //   methodSelect=$(".selectionMethod").val();
 //   searchWord=$("#searchWord").val().trim("");
@@ -232,8 +232,8 @@ function colorWater(){
   }
   
 }
-// searchNewsInitial();
-deployNewsScrollMock()
+searchNewsInitial();
+// deployNewsScrollMock()
 colorWater();
   setTimeout(() => {
     setTitles();
